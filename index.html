@@ -51,26 +51,43 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#services">Club</a></li>
-          <li><a class="nav-link scrollto" href="#about">Tienda</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Contacto</a></li>
-          <li><a class="nav-link scrollto" href="#about">Club</a></li>
-          <li><a class="nav-link scrollto" href="#services">Tienda</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Contacto</a></li>
-    
-       
+          <li><a class="nav-link scrollto" href="#services">Pasos</a></li>
+          <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Maridajes</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
+
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= hero Section ======= -->
-  <section id="hero">
+   <!-- ======= hero Section ======= -->
+   <section id="hero">
     <div class="hero-container">
       <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
+        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
 
         <div class="carousel-inner" role="listbox">
 
@@ -80,18 +97,21 @@
                 <p class="animate__animated animate__fadeInUp">Tragos que elevan tus momentos</p>
                 <h2 class="animate__animated animate__fadeInDown">Convertité en experto en tragos y sorprende a tus seres queridos generando momentos únicos. </h2>
 
+
                 <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">SUSCRIBITE</a>
+
               </div>
             </div>
           </div>
 
 
-        </div>
 
-        
+     
+
       </div>
     </div>
   </section><!-- End Hero Section -->
+
 
   <main id="main">
 
@@ -370,21 +390,159 @@
     </div><!-- End Team Section -->
 
 
-    <!-- ======= Rviews Section ======= -->
-    <div class="reviews-area">
-      <div class="row g-0">
-        <div class="col-lg-6">
-          <img src="assets/img/about/2.jpg" alt="" class="img-fluid">
+      <!-- ======= Testimonials Section ======= -->
+      <div id="testimonials" class="testimonials">
+        <div class="container">
+  
+  
+          <div class="testimonials-slider swiper">
+            <div class="swiper-wrapper">
+  
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+  
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+  
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+  
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+  
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+  
+  
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+  
+  
         </div>
-        <div class="col-lg-6 work-right-text d-flex align-items-center">
-          <div class="px-5 py-5 py-lg-0">
-            <h2>working with us</h2>
-            <h5>Web Design, Ready Home, Construction and Co-operate Outstanding Buildings.</h5>
-            <a href="#contact" class="ready-btn scrollto">Contact us</a>
+      </div><!-- End Testimonials Section -->
+
+       <!-- ======= Pricing Section ======= -->
+    <div id="pricing" class="pricing-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>Pricing Table</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list">
+              <h3>basic <br /> <span>$80 / month</span></h3>
+              <ol>
+                <li class="check"><i class="bi bi-check"></i><span>Online system</span></li>
+                <li class="check"><i class="bi bi-x"></i><span>Full access</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Free apps</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Multiple slider</span></li>
+                <li class="cross"><i class="bi bi-x"></i><span>Free domin</span></li>
+                <li class="cross"><i class="bi bi-x"></i><span>Support unlimited</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Payment online</span></li>
+                <li class="check"><i class="bi bi-x"></i><span>Cash back</span></li>
+              </ol>
+              <button>sign up now</button>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list active">
+              <span class="saleon">top sale</span>
+              <h3>standard <br /> <span>$110 / month</span></h3>
+              <ol>
+                <li class="check"><i class="bi bi-check"></i><span>Online system</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Full access</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Free apps</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Multiple slider</span></li>
+                <li class="cross"><i class="bi bi-x"></i><span>Free domin</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Support unlimited</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Payment online</span></li>
+                <li class="cross"><i class="bi bi-x"></i><span>Cash back</span></li>
+              </ol>
+              <button>sign up now</button>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list">
+              <h3>premium <br /> <span>$150 / month</span></h3>
+              <ol>
+                <li class="check"><i class="bi bi-check"></i><span>Online system</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Full access</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Free apps</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Multiple slider</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Free domin</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Support unlimited</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Payment online</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Cash back</span></li>
+              </ol>
+              <button>sign up now</button>
+            </div>
           </div>
         </div>
       </div>
-    </div><!-- End Rviews Section -->
+    </div><!-- End Pricing Section -->
+
+
+  
 
     <!-- ======= Portfolio Section ======= -->
     <div id="portfolio" class="portfolio-area area-padding fix">
@@ -522,150 +680,26 @@
       </div>
     </div><!-- End Portfolio Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <div id="pricing" class="pricing-area area-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>Pricing Table</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="pri_table_list">
-              <h3>basic <br /> <span>$80 / month</span></h3>
-              <ol>
-                <li class="check"><i class="bi bi-check"></i><span>Online system</span></li>
-                <li class="check"><i class="bi bi-x"></i><span>Full access</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Free apps</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Multiple slider</span></li>
-                <li class="cross"><i class="bi bi-x"></i><span>Free domin</span></li>
-                <li class="cross"><i class="bi bi-x"></i><span>Support unlimited</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Payment online</span></li>
-                <li class="check"><i class="bi bi-x"></i><span>Cash back</span></li>
-              </ol>
-              <button>sign up now</button>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="pri_table_list active">
-              <span class="saleon">top sale</span>
-              <h3>standard <br /> <span>$110 / month</span></h3>
-              <ol>
-                <li class="check"><i class="bi bi-check"></i><span>Online system</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Full access</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Free apps</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Multiple slider</span></li>
-                <li class="cross"><i class="bi bi-x"></i><span>Free domin</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Support unlimited</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Payment online</span></li>
-                <li class="cross"><i class="bi bi-x"></i><span>Cash back</span></li>
-              </ol>
-              <button>sign up now</button>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="pri_table_list">
-              <h3>premium <br /> <span>$150 / month</span></h3>
-              <ol>
-                <li class="check"><i class="bi bi-check"></i><span>Online system</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Full access</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Free apps</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Multiple slider</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Free domin</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Support unlimited</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Payment online</span></li>
-                <li class="check"><i class="bi bi-check"></i><span>Cash back</span></li>
-              </ol>
-              <button>sign up now</button>
-            </div>
-          </div>
-        </div>
+  
+  
+ <!-- ======= Rviews Section ======= -->
+ <div class="reviews-area">
+  <div class="row g-0">
+    <div class="col-lg-6">
+      <img src="assets/img/about/2.jpg" alt="" class="img-fluid">
+    </div>
+    <div class="col-lg-6 work-right-text d-flex align-items-center">
+      <div class="px-5 py-5 py-lg-0">
+        <h2>working with us</h2>
+        <h5>Web Design, Ready Home, Construction and Co-operate Outstanding Buildings.</h5>
+        <a href="#contact" class="ready-btn scrollto">Contact us</a>
       </div>
-    </div><!-- End Pricing Section -->
+    </div>
+  </div>
+</div><!-- End Rviews Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <div id="testimonials" class="testimonials">
-      <div class="container">
 
-        <div class="testimonials-slider swiper">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </div><!-- End Testimonials Section -->
-
-    <!-- ======= Blog Section ======= -->
+    <!-- ======= Blog Section ======= 
     <div id="blog" class="blog-area">
       <div class="blog-inner area-padding">
         <div class="blog-overly"></div>
@@ -678,7 +712,7 @@
             </div>
           </div>
           <div class="row">
-            <!-- Start Left Blog -->
+            <!-- Start Left Blog 
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="single-blog">
                 <div class="single-blog-img">
@@ -710,7 +744,7 @@
               <!-- Start single blog -->
             </div>
             <!-- End Left Blog-->
-            <!-- Start Left Blog -->
+            <!-- Start Left Blog 
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="single-blog">
                 <div class="single-blog-img">
@@ -739,10 +773,10 @@
                   <a href="blog.html" class="ready-btn">Read more</a>
                 </span>
               </div>
-              <!-- Start single blog -->
+              <!-- Start single blog 
             </div>
-            <!-- End Left Blog-->
-            <!-- Start Right Blog-->
+            <!-- End Left Blog
+            <!-- Start Right Blog
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="single-blog">
                 <div class="single-blog-img">
