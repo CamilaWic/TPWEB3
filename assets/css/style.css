@@ -61,25 +61,25 @@ h1,
 h2,
 h3,
 h6 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Playfair Display SC', sans-serif;
   margin: 0 0 15px;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 h4,
 h5 {
-  font-family:  'Josefin Sans', sans-serif;
+  font-family:  'Alice', sans-serif;
   margin: 0 0 15px;
   color: #FF9EA1;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h7 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   margin: 0 0 15px;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 h1 {
@@ -90,6 +90,7 @@ h1 {
 h2 {
   font-size: 38px;
   line-height: 40px;
+  font-weight: 700;
 }
 
 h3 {
@@ -135,7 +136,7 @@ a:hover {
 body {
   background: #fff none repeat scroll 0 0;
   color: #444;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Alice', sans-serif;
   font-size: 18px;
   text-align: left;
   overflow-x: hidden;
@@ -279,11 +280,11 @@ div#preloader {
 }
 
 #header .logo h1 {
-  font-size: 30px;
+  font-size: 28px;
   margin: 0;
   padding: 0;
   line-height: 1.2;
-  font-weight: regular;
+  font-weight: 700;
 }
 
 #header .logo h1 span {
@@ -365,8 +366,9 @@ div#preloader {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
-  font-weight: 500;
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  font-weight: 400;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -590,10 +592,7 @@ div#preloader {
   background-repeat: no-repeat;
 }
 
-#hero .carousel-item::before {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.7);
-}
+
 
 #hero .carousel-container {
   display: flex;
@@ -607,15 +606,15 @@ div#preloader {
 }
 
 #hero .container {
-  text-align: center;
+  text-align: left;
 }
 
 #hero h2 {
   color: #fff;
   margin-bottom: 20px;
   font-size: 60px;
-  font-weight: 400;
-  margin: 0 auto 10px auto;
+  margin: 10px;
+  font-weight: 700;
   line-height: 1.1;
   
 }
@@ -630,7 +629,7 @@ div#preloader {
   width: 80%;
   font-size: 26px;
   line-height: 1.2;
-  margin: 0 auto 10px auto;
+  margin: 10px;
   color: #fff;
 }
 
@@ -702,7 +701,8 @@ div#preloader {
 }
 
 #hero .btn-get-started {
-  font-weight: 500;
+ font-family: 'Playfair Display';
+  font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -723,7 +723,9 @@ div#preloader {
 # About
 --------------------------------------------------------------*/
 .about-area {
-  background-color: #9D0A39;
+  background-color: #201F1D;
+  margin-top: 60px;
+  margin-bottom:60px;
 }
 
 .single-well>a {
@@ -750,6 +752,10 @@ div#preloader {
   color: #fff;
 }
 
+.single-services > h2 {
+  color: #FF9EA1;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -762,7 +768,9 @@ div#preloader {
 }
 
 .services-area {
-  background-color: #201F1D;
+  background-color: #9D0A39;
+  margin-top: 80px;
+  margin-bottom:80px;
 }
 
 .section-headline.services-head>h2 {
@@ -787,14 +795,16 @@ div#preloader {
 .single-services>h4 {
   color: #fff;
   font-size: 24px;
-  font-weight: 400;
+  font-family: 'Playfair Display' ;
+  font-weight: 700;
 }
 
 .single-services>p {
+  font-weight: 400;
   color: #fff;
   font-size: 18px;
-  margin-right: 80px;
-  margin-left: 80px;
+  margin-right: 60px;
+  margin-left: 60px;
   
 
 }
@@ -802,6 +812,9 @@ div#preloader {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
+
+
 .team-member {
   background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
   display: block;
@@ -978,11 +991,12 @@ div#preloader {
 
 .team-content {
   padding: 10px 0px;
+  background-color: #201F1D;
 }
 
 .team-content>h4,
 .team-content>p {
-  color: #444;
+  color: #FF9EA1;
   margin-bottom: 5px;
 }
 
@@ -1006,10 +1020,17 @@ div#preloader {
 # Review
 --------------------------------------------------------------*/
 .reviews-area {
-  background: url(../img/Rectangle\ 101.png);
+  background: url(../img/fondogris.jpg);
   overflow: hidden;
+  background-repeat: repeat;
+  background-size: auto;
+  height: auto;
+  position: relative;
+
   
+
 }
+
 
 .work-left-text {
   background: #FF9EA1 none repeat scroll 0 0;
@@ -1030,7 +1051,7 @@ div#preloader {
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
-  width:58%;
+  width:80%;
 
 }
 
@@ -1282,7 +1303,7 @@ div#preloader {
 .pri_table_list>h3 {
   color: #fff;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 25px;
   padding: 30px 0 20px;
   text-transform: uppercase;
@@ -1337,7 +1358,7 @@ div#preloader {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/background/image\ 39.png") no-repeat;
+  background: url("../img/background/fondotestimonial.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1350,7 +1371,7 @@ div#preloader {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .testimonials .testimonials-carousel,
@@ -1434,7 +1455,7 @@ div#preloader {
 # Quote
 --------------------------------------------------------------*/
 .suscribe-area {
-  background: #3EC1D5 none repeat scroll 0 0;
+  background: #FF9EA1 none repeat scroll 0 0;
   padding: 30px 0;
 }
 
@@ -1443,20 +1464,20 @@ div#preloader {
   padding: 10px 0;
 }
 
-.suscribe-text h3 {
-  color: #fff;
+.suscribe-text h2 {
+  color: #201F1D;
   display: inline-block;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 700;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .sus-btn {
-  background: #fff none repeat scroll 0 0;
-  border: 2px solid #fff;
-  color: #3EC1D5;
+  background: #9D0A39 none repeat scroll 0 0;
+  border: 2px solid #9D0A39;
+  color: #fff;
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
@@ -1479,7 +1500,7 @@ div#preloader {
 .contact-area {
   height: auto;
   width: 100%;
-  background-color: #9D0A39;
+  background-color: #201F1D;
   
 }
 
@@ -1499,7 +1520,7 @@ div#preloader {
   line-height: 56px;
   border-radius: 50%;
   margin-bottom: 30px;
-  color: #201F1D;
+  color: #fff;
 }
 
 .single-icon p {
@@ -1519,7 +1540,7 @@ div#preloader {
 
 .php-email-form .validate {
   display: none;
-  color: red;
+  color: #fff;
   margin: 0;
   font-weight: 400;
   font-size: 13px;
@@ -1564,7 +1585,7 @@ div#preloader {
 
 .php-email-form input,
 .php-email-form textarea {
-  background-color: #9D0A39;
+  background-color: #fff;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1572,19 +1593,19 @@ div#preloader {
 
 .php-email-form input:focus,
 .php-email-form textarea:focus {
-  background-color: #9D0A39;
+  background-color: #201F1D;
   border-color: #FF9EA1;
   color:#fff;
 }
 
 .php-email-form input {
-  background-color: #9D0A39;
+  background-color: #201F1D;
   color:#fff;
   padding: 10px 15px;
 }
 
 .php-email-form textarea {
-  background-color: #9D0A39;
+  background-color: #201F1D;
   color:#fff;
   padding: 12px 15px;
 }
@@ -1592,7 +1613,7 @@ div#preloader {
 .php-email-form button[type=submit] {
   background: #FF9EA1;
   border: 1px solid #ccc;
-  color: #fff;
+  color: #201F1D;
   font-size: 16px;
   font-weight: 700;
   margin-top: 8px;
@@ -2179,7 +2200,7 @@ span.email-notes {
   padding: 0;
   margin: 0;
   font-size: 36px;
-  font-weight: regular;
+  font-weight: 700;
   line-height: 1;
 }
 
@@ -2259,7 +2280,7 @@ span.email-notes {
 }
 
 .footer-area-bottom {
-  background: #9D0A39 none repeat scroll 0 0;
+  background: #201F1D none repeat scroll 0 0;
   padding: 15px 0;
 }
 
