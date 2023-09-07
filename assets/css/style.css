@@ -61,25 +61,25 @@ h1,
 h2,
 h3,
 h6 {
-  font-family: 'Playfair Display SC', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   margin: 0 0 15px;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h4,
 h5 {
-  font-family:  'Alice', sans-serif;
+  font-family:  'DM Serif Text', sans-serif;
   margin: 0 0 15px;
   color: #FF9EA1;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h7 {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   margin: 0 0 15px;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h1 {
@@ -90,7 +90,7 @@ h1 {
 h2 {
   font-size: 38px;
   line-height: 40px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h3 {
@@ -136,7 +136,7 @@ a:hover {
 body {
   background: #fff none repeat scroll 0 0;
   color: #444;
-  font-family: 'Alice', sans-serif;
+  font-family: 'DM Serif Text', sans-serif;
   font-size: 18px;
   text-align: left;
   overflow-x: hidden;
@@ -239,7 +239,7 @@ div#preloader {
   font-weight: 400;
   margin-bottom: 70px;
   position: relative;
-  text-transform: capitalize;
+  
 }
 
 .section-headline h2::after {
@@ -366,7 +366,7 @@ div#preloader {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: 'Playfair Display';
+  font-family: 'DM Serif Display';
   font-size: 18px;
   font-weight: 400;
   color: #fff;
@@ -701,8 +701,8 @@ div#preloader {
 }
 
 #hero .btn-get-started {
- font-family: 'Playfair Display';
-  font-weight: 700;
+ font-family: 'DM Serif Display';
+  font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -724,8 +724,7 @@ div#preloader {
 --------------------------------------------------------------*/
 .about-area {
   background-color: #201F1D;
-  margin-top: 60px;
-  margin-bottom:60px;
+
 }
 
 .single-well>a {
@@ -769,8 +768,7 @@ div#preloader {
 
 .services-area {
   background-color: #9D0A39;
-  margin-top: 80px;
-  margin-bottom:80px;
+ 
 }
 
 .section-headline.services-head>h2 {
@@ -1812,7 +1810,7 @@ div#preloader {
   display: block;
   font-size: 14px;
   padding: 10px;
-  text-transform: capitalize;
+  
 }
 
 .recent-single-post {
