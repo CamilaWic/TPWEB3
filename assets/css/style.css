@@ -89,7 +89,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 48px;
   line-height: 40px;
   font-weight: 400;
   color: FF9EA1; 
@@ -170,7 +170,7 @@ body {
 }
 
 .back-to-top:hover {
-  background: #60ccdc;
+  background: #9D0A39;
   color: #fff;
 }
 
@@ -239,7 +239,7 @@ div#preloader {
 
 .section-headline h2 {
   display: inline-block;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 400;
   margin-bottom: 70px;
   position: relative;
@@ -710,7 +710,7 @@ div#preloader {
 
 #hero .btn-get-started {
  font-family: 'DM Sans';
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
   letter-spacing: 1px;
   display: inline-block;
@@ -731,8 +731,8 @@ div#preloader {
 
 
 #hero .btn-get-started:hover {
-  background: #fff;
-  color: #9D0A39;
+  background: #FF9EA1;
+  color: #201F1D;
 }
 
 /*--------------------------------------------------------------
@@ -785,6 +785,8 @@ div#preloader {
   text-decoration: none;
   border-radius: 12px;
 }
+
+
 
 
 .single-services>h4 {
@@ -845,6 +847,12 @@ div#preloader {
   border-radius: 12px;
 }
 
+.about-btn:hover {
+  background-color: #9D0A39;
+  border: 1px solid #9D0A39;
+  color: #fff;
+}
+
 
 .single-services>h4 {
   color: #FF9EA1;
@@ -854,7 +862,7 @@ div#preloader {
   margin-top: 15px;
   margin-bottom: 20px;
   color: #FF9EA1;
-  font-size: 40px;
+  font-size: 48px;
 }
 
 /*--------------------------------------------------------------
@@ -877,7 +885,7 @@ div#preloader {
 
 .section-headline.services-head>h2 {
   margin-bottom: 0px;
-  font-size: 40px;
+  font-size: 48px;
 }
 
 .services-details {
@@ -1113,6 +1121,8 @@ padding-bottom: 160px;
 .team-content {
   padding: 10px 0px;
   background-color: #9D0A39;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .team-content>h3,
@@ -1155,7 +1165,7 @@ padding-bottom: 160px;
 
 .work-right-text h2 {
   color: #fff;
-  font-size: 40px;
+  font-size: 48px;
   margin-bottom: 10px;
 }
 
@@ -1369,6 +1379,7 @@ color: #9D0A39;
   text-align: center;
   transition: all 0.4s ease 0s;
   background: #201F1D;
+  border-radius: 20px;
 }
 
 .pri_table_list h3 span {
@@ -1419,7 +1430,7 @@ color: #9D0A39;
   border: 1px solid #FF9EA1;
   color: #201F1D;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 25px;
   padding: 15px 35px;
   transition: all 0.4s ease 0s;
@@ -1479,9 +1490,9 @@ color: #9D0A39;
 }
 
 .pri_table_list>button:hover {
-  background-color: #fff;
-  border: 1px solid #333;
-  color: #201F1D;
+  background-color: #9D0A39;
+  border: 1px solid #9D0A39;
+  color: #fff;
 }
 
 
@@ -1598,7 +1609,7 @@ color: #9D0A39;
 .suscribe-text h2 {
   color: #fff;
   display: inline-block;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 400;
   margin: 0;
   letter-spacing: 2px;
@@ -1745,6 +1756,19 @@ color: #9D0A39;
   background: #FF9EA1 none repeat scroll 0 0;
   border: 2px solid #FF9EA1;
   color: #201F1D;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 0px;
+  padding: 15px 35px;
+  text-decoration: none;
+  border-radius: 12px;
+  align-items: start;
+}
+
+.php-email-form button:hover {
+  background: #9D0A39 none repeat scroll 0 0;
+  border: 2px solid #9D0A39;
+  color: #fff;
   font-size: 24px;
   font-weight: 600;
   margin-left: 0px;
