@@ -165,7 +165,7 @@ body {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #201F1D;
   line-height: 0;
 }
 
@@ -870,10 +870,10 @@ div#preloader {
 }
 
 .single-well2 > h2 {
-  margin-top: 45px;
+  margin-top: 40px;
   margin-bottom: 30px;
   color: #FF9EA1;
-  font-size: 48px;
+  font-size: 43px;
   font-weight: 600;
 }
 
@@ -1187,8 +1187,8 @@ padding-bottom: 160px;
 
 .work-right-text h2 {
   color: #fff;
-  font-size: 48px;
-  margin-bottom: 10px;
+  font-size: 43px;
+  margin-bottom: 20px;
   font-weight: 600;
 }
 
@@ -1196,15 +1196,18 @@ padding-bottom: 160px;
   color: #fff;
   font-size: 20px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 1.2;
   width:80%;
-  margin-top: 20px;
+  margin-top: 25px;
 
 }
 
 .work-right-text .sus-btn {
   margin-left: 0;
-  margin-top: 20px;
+  margin-top: 15px;
+  font-size: 28px;
+  padding: 18px 32px;
+  font-weight: 500;
 }
 
 .single-awesome-4 {
@@ -1389,17 +1392,16 @@ padding-bottom: 160px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
-.pricing-area h2 {
-color: #9D0A39;
-
+.pricing-area .section-headline h2 {
+  color: #9D0A39;
 }
 
 
-.pricing-headline h2 ::after {
+.pricing-area .section-headline h2::after {
   border: 1px solid #9D0A39;
   bottom: -20px;
   content: "";
@@ -1409,6 +1411,8 @@ color: #9D0A39;
   right: 0;
   width: 40%;
 }
+
+
 
 .pri_table_list {
   text-align: center;
@@ -1481,6 +1485,7 @@ color: #9D0A39;
   padding: 30px 0 20px;
   margin-right: 30px;
   margin-left: 30px;
+  margin-bottom: 5px;
   transition: all 0.4s ease 0s;
 }
 
@@ -1488,6 +1493,7 @@ color: #9D0A39;
   color: #FF9EA1;
   font-size: 28px;
   font-weight: 500;
+  margin-bottom: 20px;
 
 }
 
@@ -1592,15 +1598,17 @@ color: #9D0A39;
   margin: 0 auto;
 }
 
+
+
 .testimonials .testimonial-item h3 {
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 10px 0 5px 0;
   color: #fff;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 22px;
+  font-size: 26px;
   color: #fff;
   margin: 0 0 15px 0;
 }
@@ -1609,6 +1617,7 @@ color: #9D0A39;
 .testimonials .testimonial-item .quote-icon-right {
   color: #FF9EA1;
   font-size: 26px;
+
 }
 
 .testimonials .testimonial-item .quote-icon-left {
@@ -1627,6 +1636,8 @@ color: #9D0A39;
 .testimonials .testimonial-item p {
   margin: 0 auto 15px auto;
   color: #fff;
+  font-size: 20px;
+ 
 }
 
 .testimonials .swiper-pagination {
@@ -1702,6 +1713,7 @@ color: #9D0A39;
   background-color: #201F1D; 
 }
 
+
 .contact-content {
   padding: 100px;
   background: #000 none repeat scroll 0 0;
@@ -1709,6 +1721,7 @@ color: #9D0A39;
 
 .contact-content-right {
   padding: 100px;
+  color: #fff;
 }
 
 .single-icon i {
@@ -1731,8 +1744,8 @@ color: #9D0A39;
   margin-bottom: 40px;
 }
 
-#google-map {
-  height: 370px;
+.google-map .col-md-6 {
+  height: auto;
   margin-bottom: 20px;
 }
 
@@ -1782,12 +1795,16 @@ color: #9D0A39;
   color:#FFf;
 }
 
+
+
+
 .php-email-form input,
 .php-email-form textarea {
-  background-color: #fff;
+  background-color: #201F1D;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  color: #fff; /* Establece el color del texto en blanco */
 }
 
 
@@ -1796,46 +1813,54 @@ color: #9D0A39;
 .php-email-form textarea:focus {
   background-color: #201F1D;
   border-color: #FF9EA1;
-  color:#fff;
+  color: #fff; /* Establece el color del texto en blanco */
+}
+
+.php-email-form label {
+  color: #fff; /* Color del texto en blanco */
+}
+
+.php-email-form label[for="name"],
+.php-email-form label[for="email"],
+.php-email-form label[for="subject"],
+.php-email-form label[for="message"] {
+  color: #fff;
 }
 
 .php-email-form input {
-  background-color: #201F1D;
-  color:#fff;
   padding: 10px 15px;
 }
 
 .php-email-form textarea {
-  background-color: #201F1D;
-  color:#fff;
   padding: 12px 15px;
 }
 
-.php-email-form button[type=submit] {
+.php-email-form button[type="submit"] {
   background: #FF9EA1 none repeat scroll 0 0;
   border: 2px solid #FF9EA1;
-  color: #201F1D;
-  font-size: 24px;
-  font-weight: 600;
-  margin-left: 0px;
-  padding: 15px 35px;
+  color: #201F1D; /* Cambiado el color del texto */
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 0; /* Alineación a la izquierda */
+  padding: 18px 32px;
   text-decoration: none;
   border-radius: 12px;
-  align-items: start;
+  display: block; /* Hacer que el botón sea un bloque */
 }
 
 .php-email-form button:hover {
   background: #9D0A39 none repeat scroll 0 0;
   border: 2px solid #9D0A39;
   color: #fff;
-  font-size: 24px;
-  font-weight: 600;
-  margin-left: 0px;
-  padding: 15px 35px;
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 0; /* Alineación a la izquierda */
+  padding: 18px 32px;
   text-decoration: none;
   border-radius: 12px;
-  align-items: start;
+  display: block; /* Hacer que el botón sea un bloque */
 }
+
 
 
 
@@ -1848,6 +1873,8 @@ color: #9D0A39;
     transform: rotate(360deg);
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Blog
@@ -2390,14 +2417,14 @@ span.email-notes {
 
 .footer-head p {
   color: #fff;
-  line-height: normal;
+  line-height: 1.2;
 }
 
 .footer-head h3 {
   color: #FF9EA1;
-  font-size: 20px;
-  padding-bottom: 10px;
-  font-family: "dm serif display";
+  font-size: 24px;
+  font-family: "Libre Caslon Text";
+  font-weight: 600;
  
 }
 
@@ -2409,8 +2436,8 @@ span.email-notes {
   color: #FF9EA1;
   padding: 0;
   margin: 0;
-  font-size: 36px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 600;
   line-height: 1;
 }
 
@@ -2420,6 +2447,7 @@ span.email-notes {
 
 .footer-icons ul li {
   display: inline-block;
+  margin-bottom: 30px;
 }
 
 .footer-icons ul li a {
@@ -2437,6 +2465,7 @@ span.email-notes {
   align-items: center;
   justify-content: center;
   line-height: 0;
+  margin-bottom: 20px;
 }
 
 .footer-icons ul li a i {
@@ -2455,7 +2484,7 @@ span.email-notes {
 
 .footer-contacts p span {
   color: #FF9EA1;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .popular-tag ul li {
@@ -2727,6 +2756,7 @@ span.email-notes {
 
   .suscribe-input input {
     width: 60%;
+ 
   }
 
   .suscribe-input button {
