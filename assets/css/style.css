@@ -92,7 +92,7 @@ h2 {
   font-size: 48px;
   line-height: 40px;
   font-weight: 400;
-  color: FF9EA1; 
+  color: #FF9EA1; 
 }
 
 
@@ -157,21 +157,22 @@ body {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #FF9EA1;
+  background: #9D0A39;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
+  color: #fff;
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #201F1D;
+  color: #fff;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #9D0A39;
-  color: #fff;
+  background: #FF9EA1;
+  color: #201F1D;
 }
 
 .back-to-top.active {
@@ -629,9 +630,9 @@ div#preloader {
 
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 40px;
+    font-size: 45px;
     width: 100%;
-    line-height: 1;
+    line-height: 1.2;
   }
 }
 
@@ -651,9 +652,9 @@ div#preloader {
 
 @media (max-width: 768px) {
   #hero p {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.2;
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -727,7 +728,7 @@ div#preloader {
 
 @media (max-width: 768px) {
   #hero .btn-get-started {
-    font-size: 18px;
+    font-size: 24px;
   
   }
 }
@@ -768,15 +769,30 @@ div#preloader {
   font-size: 35px;
 }
 
+@media (max-width: 768px) {
+  #about ul li   {
+    font-size: 24px;
+    width: 100%;
+    line-height: 1.2;
+  }
+}
+
 .single-well p {
   color: #fff;
   font-family: 'DM Sans' ;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.2;
-  margin-left: 40px;
   width: 80%;
   font-weight: 400;
 
+}
+
+@media (max-width: 768px) {
+  #about p {
+    font-size: 19px;
+    width: 100%;
+    line-height: 1.2;
+  }
 }
 
 .about-btn {
@@ -799,12 +815,22 @@ div#preloader {
   color: #FF9EA1;
 }
 
+
+
 .single-well > h2 {
   color: #FF9EA1;
   font-family: 'Libre Caslon Text', serif; ;
   font-size: 43px;
   font-weight: 600;
   margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #about h2 {
+    font-size: 30px;
+    width: 100%;
+    line-height: 1.2;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -845,6 +871,13 @@ div#preloader {
   margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+  .single-well2 p{
+    font-size: 19px;
+   
+  }
+}
+
 .about-btn {
   background: #FF9EA1 none repeat scroll 0 0;
   border: 2px solid #FF9EA1;
@@ -856,6 +889,13 @@ div#preloader {
   padding: 18px 32px;
   text-decoration: none;
   border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .about-btn {
+    font-size: 24px;
+   margin-bottom: 30px;
+  }
 }
 
 .about-btn:hover {
@@ -917,11 +957,30 @@ div#preloader {
   font-size: 30px;
 }
 
+@media (max-width: 768px) {
+  #services h2 {
+    font-size: 30px;
+    width: 100%;
+    line-height: 1.2;
+  }
+}
+
 .single-services>h4 {
   color: #fff;
   font-size: 30px;
   font-family: 'Libre Caslon Text', serif; ;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  #services h4 {
+    font-size: 24px;
+    width: 100%;
+    line-height: 1.2;
+    margin-right: 0px;
+    margin-left: 0px;
+    align-items: center;
+  }
 }
 
 .single-services>p {
@@ -932,8 +991,18 @@ div#preloader {
   margin-right: 45px;
   margin-left: 45px;
   width: 80%;
-  
 
+}
+
+@media (max-width: 768px) {
+  #services p {
+    font-size: 19px;
+    font-weight: 400;
+  line-height: 1.2;
+  color: #fff;
+  width: 80%;
+    line-height: 1.2;
+  }
 }
 
 
@@ -1138,6 +1207,7 @@ padding-bottom: 160px;
   border-bottom-right-radius: 5px;
 }
 
+
 .team-content>h3,
 .team-content>p {
   color: #fff;
@@ -1149,7 +1219,21 @@ padding-bottom: 160px;
   font-family:'Libre Caslon Text', serif ;
   font-size: 30px;
   font-weight: 600;
-  
+}
+
+
+@media (max-width: 768px) {
+  .team-content>h3 {
+    font-size: 24px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .team-content>p {
+    font-size: 19px;
+
+  }
 }
 
 .team-content.head-team p {
@@ -1202,6 +1286,13 @@ padding-bottom: 160px;
   font-weight: 600;
 }
 
+@media (max-width: 768px) {
+  .work-right-text h2 {
+    font-size: 30px;
+
+  }
+}
+
 .work-right-text p {
   color: #fff;
   font-size: 20px;
@@ -1212,12 +1303,29 @@ padding-bottom: 160px;
 
 }
 
+@media (max-width: 768px) {
+  .work-right-text p {
+    font-size: 19px;
+    width: 100%;
+
+  }
+}
+
 .work-right-text .sus-btn {
   margin-left: 0;
   margin-top: 15px;
   font-size: 28px;
   padding: 18px 32px;
   font-weight: 500;
+}
+
+
+@media (max-width: 768px) {
+  .work-right-text .sus-btn {
+    font-size: 24px;
+
+
+  }
 }
 
 .single-awesome-4 {
@@ -1406,7 +1514,7 @@ padding-bottom: 160px;
   padding-bottom: 150px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .pricing-area {
     background: url(../img/background/susmobile.jpg);
     background-repeat: no-repeat;
@@ -1415,6 +1523,8 @@ padding-bottom: 160px;
     /* Otros estilos que desees para móviles */
   }
 }
+
+
 
 .pricing-area .section-headline h2 {
   color: #9D0A39;
@@ -1444,6 +1554,12 @@ padding-bottom: 160px;
 .pri_table_list h3 span {
   font-size: 30px;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .pri_table_list h3 span {
+    font-size: 24px;
+  }
 }
 
 .pri_table_list ol li {
@@ -1497,6 +1613,13 @@ padding-bottom: 160px;
   border-radius: 12px;
 }
 
+@media (max-width: 768px) {
+  .pri_table_list button {
+    font-size: 24px;
+  }
+}
+
+
 .pri_table_list>h3 {
   color: #fff;
   font-size: 30px;
@@ -1509,6 +1632,12 @@ padding-bottom: 160px;
   transition: all 0.4s ease 0s;
 }
 
+@media (max-width: 768px) {
+  .pri_table_list>h3 {
+    font-size: 24px;
+  }
+}
+
 .pri_table_list>h4 {
   color: #FF9EA1;
   font-size: 28px;
@@ -1517,11 +1646,23 @@ padding-bottom: 160px;
 
 }
 
+@media (max-width: 768px) {
+  .pri_table_list>h4 {
+    font-size: 26px;
+  }
+}
+
 .pri_table_list>h5 {
   color: #FF9EA1;
   font-size: 24px;
   font-weight: 500;
 
+}
+
+@media (max-width: 768px) {
+  .pri_table_list>h5 {
+    font-size: 21px;
+  }
 }
 
 
@@ -1534,6 +1675,12 @@ padding-bottom: 160px;
   padding: 0 0 5px;
   text-align: left;
   font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .pri_table_list ol {
+    font-size: 19px;
+  }
 }
 
 .pri_table_list ol h6 {
@@ -1669,7 +1816,7 @@ padding-bottom: 160px;
   width: 12px;
   height: 12px;
   background-color: rgba(255, 255, 255, 0.5);
-  opacity: 1;
+  opacity: 100%;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
@@ -1691,6 +1838,15 @@ padding-bottom: 160px;
   padding: 60px 0;
 }
 
+@media (max-width: 1023px) {
+  .suscribe-area {
+ background: url("../img/background/suscribitehoymobile.png");
+    background-repeat: no-repeat;
+     background-position: bottom;
+    /* Otros estilos que desees para móviles */
+  }
+}
+
 .suscribe-text {
   display: block;
   padding: 0px 0;
@@ -1705,6 +1861,14 @@ padding-bottom: 160px;
   
 }
 
+@media (max-width: 768px) {
+  .suscribe-text h2 {
+    font-size: 30px;
+    width: 100%;
+    line-height: 1.2;
+  }
+}
+
 .sus-btn {
   background: #FF9EA1 none repeat scroll 0 0;
   border: 2px solid #FF9EA1;
@@ -1717,6 +1881,14 @@ padding-bottom: 160px;
   text-decoration: none;
   border-radius: 12px;
 }
+
+@media (max-width: 768px) {
+  .sus-btn {
+    font-size: 24px;
+
+  }
+}
+
 
 .sus-btn:hover {
   background: #201F1D none repeat scroll 0 0;
@@ -1865,7 +2037,14 @@ padding-bottom: 160px;
   padding: 18px 32px;
   text-decoration: none;
   border-radius: 12px;
-  display: block; /* Hacer que el botón sea un bloque */
+  display: flex; /* Hacer que el botón sea un bloque */
+}
+
+@media (max-width: 768px) {
+  .php-email-form button{
+    font-size: 24px;
+
+  }
 }
 
 .php-email-form button:hover {
@@ -1878,7 +2057,7 @@ padding-bottom: 160px;
   padding: 18px 32px;
   text-decoration: none;
   border-radius: 12px;
-  display: block; /* Hacer que el botón sea un bloque */
+  display: flex; /* Hacer que el botón sea un bloque */
 }
 
 
