@@ -629,7 +629,7 @@ div#preloader {
 
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 50px;
+    font-size: 40px;
     width: 100%;
     line-height: 1;
   }
@@ -1178,6 +1178,16 @@ padding-bottom: 160px;
 
 }
 
+@media (max-width: 1023px) {
+  .reviews-area {
+    background: url(../img/atardecermobile.jpg);
+    background-repeat: no-repeat;
+     background-position: bottom;
+    /* Otros estilos que desees para móviles */
+  }
+}
+
+
 
 .work-left-text {
   background: #FF9EA1 none repeat scroll 0 0;
@@ -1394,6 +1404,16 @@ padding-bottom: 160px;
   background-position: top center;
   padding-top: 150px;
   padding-bottom: 150px;
+}
+
+@media (max-width: 1023px) {
+  .pricing-area {
+    background: url(../img/background/susmobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    /* Otros estilos que desees para móviles */
+  }
 }
 
 .pricing-area .section-headline h2 {
