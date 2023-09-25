@@ -44,8 +44,8 @@ a:focus {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* Ajusta el tamaño máximo de las imágenes */
+  height: auto; /* Mantiene la proporción de la imagen */
 }
 
 .fix {
@@ -137,14 +137,16 @@ a:hover {
 }
 
 body {
-  background: #fff none repeat scroll 0 0;
+  background: #fff; /* Quita el none repeat scroll 0 0 si no es necesario */
   color: #444;
   font-family: 'DM Sans', sans-serif;
   font-size: 20px;
   text-align: left;
   overflow-x: hidden;
-  line-height: 22px;
+  line-height: 1.6; /* Ajusta el line-height según tu diseño */
   font-weight: 400;
+  margin: 0; /* Asegura que no haya márgenes predeterminados */
+  overflow-x: hidden;
 }
 
 /*--------------------------------------------------------------
@@ -158,11 +160,14 @@ body {
   bottom: 15px;
   z-index: 996;
   background: #9D0A39;
-  width: 40px;
   height: 40px;
   transition: all 0.4s;
   color: #fff;
-}
+    /* Resto de tus estilos ... */
+    width: 40px; /* Ajusta el ancho del botón */
+    margin-right: 10px; /* Ajusta el margen derecho para evitar desbordamiento */
+  }
+
 
 .back-to-top i {
   font-size: 28px;
@@ -492,6 +497,7 @@ div#preloader {
   background: rgba(1, 2, 2, 0.9);
   transition: 0.3s;
   z-index: 999;
+  overflow-x: hidden; /* Evita deslizamiento horizontal */
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -510,7 +516,8 @@ div#preloader {
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
-  transition: 0.3s;
+  transition: 0.3s;max-width: 100vw; /* Establece el ancho máximo a ancho de la ventana */
+  box-sizing: border-box; /* Incluye padding y borde en el ancho máximo */
 }
 
 .navbar-mobile a,
@@ -770,9 +777,9 @@ div#preloader {
 }
 
 @media (max-width: 768px) {
-  #about ul li   {
+  .single-well ul li i   {
     font-size: 24px;
-    width: 100%;
+    width: 80%;
     line-height: 1.2;
   }
 }
@@ -784,13 +791,14 @@ div#preloader {
   line-height: 1.2;
   width: 80%;
   font-weight: 400;
+  margin-right: 5px;
 
 }
 
 @media (max-width: 768px) {
   #about p {
     font-size: 19px;
-    width: 100%;
+    width: 90%;
     line-height: 1.2;
   }
 }
@@ -1224,7 +1232,8 @@ padding-bottom: 160px;
 
 @media (max-width: 768px) {
   .team-content>h3 {
-    font-size: 24px;
+    font-size: 28px;
+    margin-bottom: 3px;
 
   }
 }
