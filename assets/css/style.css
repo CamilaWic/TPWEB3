@@ -2036,8 +2036,8 @@ padding-bottom: 160px;
 
 .php-email-form input,
 .php-email-form textarea {
-  background-color: #201F1D;
-  border-radius: 0;
+  background-color: #5b5b5a;
+  border-radius: 5px;
   box-shadow: none;
   font-size: 14px;
   color: #fff; /* Establece el color del texto en blanco */
