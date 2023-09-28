@@ -885,6 +885,7 @@ div#preloader {
   font-weight: 400;
   margin-right: 5px;
   margin-left: 42px;
+  
 
 }
 
@@ -1006,9 +1007,9 @@ margin-bottom: 10px;
 }
 
 .about-btn:hover {
-  background-color: #9D0A39;
-  border: 1px solid #9D0A39;
-  color: #fff;
+  background-color: #201F1D;
+  border: 1px solid #201F1D;
+  color: #FF9EA1;
 }
 
 
@@ -2891,6 +2892,12 @@ span.email-notes {
 
 .footer-icons ul li a i {
   line-height: 0;
+}
+
+@media (max-width: 768px) {
+  .footer-icons {
+   margin-left: 30px;
+  }
 }
 
 .flicker-img>a {
