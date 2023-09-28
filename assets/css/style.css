@@ -642,15 +642,7 @@ div#preloader {
   background-repeat: no-repeat;
 }
 
-/* Mobile view: change background image for smaller screens */
-@media (max-width: 768px) {
-  #hero .carousel-item {
-    background: url("../img/hero-carousel/heromobile.jpg") no-repeat;
-    background-repeat: no-repeat;
-    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-    background-position: top center;
-  }
-}
+
 
 
 #hero .carousel-container {
@@ -820,7 +812,7 @@ div#preloader {
 }
 
 /* Default background image for desktop */
-#hero2 .carousel-item {
+#hero2 .carousel-item2 {
   background: url("../img/hero-carousel/herodetalle.jpg") no-repeat;
   background-size: cover;
 
@@ -828,7 +820,7 @@ div#preloader {
 
 /* Mobile view: change background image for smaller screens */
 @media (max-width: 768px) {
-  #hero2 .carousel-item {
+  #hero2 .carousel-item2 {
     background: url("../img/hero-carousel/detallemobile.jpg") no-repeat;
       background-repeat: no-repeat;
   background-size: cover;
@@ -841,7 +833,7 @@ div#preloader {
 
 #hero2 .carousel,
 #hero2 .carousel-inner,
-#hero2 .carousel-item,
+#hero2 .carousel-item2,
 #hero2 .carousel-item::before {
   position: absolute;
   top: 0;
@@ -850,21 +842,12 @@ div#preloader {
   bottom: 0;
 }
 
-#hero2 .carousel-item {
+#hero2 .carousel-item2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-/* Mobile view: change background image for smaller screens */
-@media (max-width: 768px) {
-  #hero .carousel-item {
-    background: url("../img/hero-carousel/detallemobile.jpg") no-repeat;
-    background-repeat: no-repeat;
-    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-    background-position: top center;
-  }
-}
 
 
 #hero2 .carousel-container {
